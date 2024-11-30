@@ -18,6 +18,7 @@ function App() {
   const themesHandler = useCallback(() => {
     console.log("Theme cnahge in App");
     setThemes((val) => !val);
+    // setThemes(!themes)
   }, []);
 
   return (
